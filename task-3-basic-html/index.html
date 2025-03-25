@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 800px;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border: 5px solid green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-img img {
+            width: 100px;
+            height: 100px;
+        }
+        .contact-info {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .contact-info h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style-type: none;
+            columns: 2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="contact-info">
+                <h1>Aman</h1>
+                <h3>Java Developer / Designer</h3>
+                <p>📍 Mohali Punjab 140413</p>
+                <p>📞 (+91) 9919950175</p>
+                <p>✉️ aman.saxena@appfoster.com</p>
+                <p>🌐 https://www.linkedin.com/in/aman-saxena-03780b231/</p>
+                <p>🐦 X@twitter</p>
+            </div>
+            <div class="profile-img">
+                <img src="placeholder.png" alt="Profile Image">
+            </div>
+        </div>
+
+        <div class="section profile">
+            <h2>Profile</h2>
+            <p>I'm a Java Backend Developer and build some projects using Spring-Boot, Spring and follows a microservice architecture. Coming on the database i have used MongoDB Atlas cloud, MYSQL database</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>SpringBoot</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>jQuery</li>
+                <li>CMS Made Simple</li>
+                <li>Photoshop</li>
+            </ul>
+        </div>
+
+        <div class="section experience">
+            <h2>Experience</h2>
+            <h3>Web Developer / Backend Development</h3>
+            <p><strong>Chandigarh University</strong></p>
+            <p>Invnetory Management System</p>
+            <p>User can store and check their details about their automobiles and  fetch and insert the details as well</p>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Institute</th>
+                    <th>Course</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Chandigarh University</td>
+                    <td>B.E Computer Science Engineering</td>
+                    <td>2025</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
